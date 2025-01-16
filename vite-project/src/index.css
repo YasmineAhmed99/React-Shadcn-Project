@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  width: 650px;
+  height: 280px;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+}
+
+.card-information{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-num{
+font-size: 25px
+}
+
+.info-section{
+  padding: 15px;
+  margin: auto;
+  width: 650px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 200px
+
+}
+
+.keys div{
+  line-height: 30px;
+}
+
+.values div{
+  line-height: 30px;
+}
+
+.visa-value{
+  display: inline;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.status-value{
+  width: 55px;
+  height: 30px;
+}
+
+.options{
+  margin: auto;
+  width: 650px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.options button{
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  height: 45px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.header .left-buttons{
+  display: flex;
+  gap: 20px;
+}
+
+.header .right-buttons{
+  display: flex;
+  gap: 20px;
+}
+
+.header-options{
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.header-options .option{
+
+  border: 1px solid rgb(65, 130, 154);
+  border-radius: 5px;
+  padding: 5px;
+
+}
+ 
